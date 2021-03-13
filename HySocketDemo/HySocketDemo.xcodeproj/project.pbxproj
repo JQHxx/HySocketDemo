@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B58B1D5A25FBBE050098DEB8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D5925FBBE050098DEB8 /* AppDelegate.m */; };
+		B58B1D5D25FBBE050098DEB8 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D5C25FBBE050098DEB8 /* SceneDelegate.m */; };
+		B58B1D6025FBBE050098DEB8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D5F25FBBE050098DEB8 /* ViewController.m */; };
+		B58B1D6325FBBE050098DEB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58B1D6125FBBE050098DEB8 /* Main.storyboard */; };
+		B58B1D6525FBBE070098DEB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B58B1D6425FBBE070098DEB8 /* Assets.xcassets */; };
+		B58B1D6825FBBE070098DEB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B58B1D6625FBBE070098DEB8 /* LaunchScreen.storyboard */; };
+		B58B1D6B25FBBE070098DEB8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D6A25FBBE070098DEB8 /* main.m */; };
+		B58B1D9A25FBBE380098DEB8 /* HySocketMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D7325FBBE380098DEB8 /* HySocketMessage.m */; };
+		B58B1D9B25FBBE380098DEB8 /* HySocketReConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D7625FBBE380098DEB8 /* HySocketReConnect.m */; };
+		B58B1D9C25FBBE380098DEB8 /* HySocketConnect.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D7825FBBE380098DEB8 /* HySocketConnect.m */; };
+		B58B1D9D25FBBE380098DEB8 /* HySRWebSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D7A25FBBE380098DEB8 /* HySRWebSocketClient.m */; };
+		B58B1D9E25FBBE380098DEB8 /* HySRWebSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D7E25FBBE380098DEB8 /* HySRWebSocketServer.m */; };
+		B58B1D9F25FBBE380098DEB8 /* HySRWebSocketFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D7F25FBBE380098DEB8 /* HySRWebSocketFactory.m */; };
+		B58B1DA025FBBE380098DEB8 /* HySocketHeartBeat.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D8625FBBE380098DEB8 /* HySocketHeartBeat.m */; };
+		B58B1DA125FBBE380098DEB8 /* HyCFSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D8A25FBBE380098DEB8 /* HyCFSocketClient.m */; };
+		B58B1DA225FBBE380098DEB8 /* HyCFSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D8E25FBBE380098DEB8 /* HyCFSocketServer.m */; };
+		B58B1DA325FBBE380098DEB8 /* HyCFSocketFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D8F25FBBE380098DEB8 /* HyCFSocketFactory.m */; };
+		B58B1DA425FBBE380098DEB8 /* HyServerClientSocketObject.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D9025FBBE380098DEB8 /* HyServerClientSocketObject.m */; };
+		B58B1DA525FBBE380098DEB8 /* HyCocoaSyncSocketServer.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D9325FBBE380098DEB8 /* HyCocoaSyncSocketServer.m */; };
+		B58B1DA625FBBE380098DEB8 /* HyCocoaSyncSocketFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D9425FBBE380098DEB8 /* HyCocoaSyncSocketFactory.m */; };
+		B58B1DA725FBBE380098DEB8 /* HyCocoaSyncSocketClient.m in Sources */ = {isa = PBXBuildFile; fileRef = B58B1D9725FBBE380098DEB8 /* HyCocoaSyncSocketClient.m */; };
+		B5F65437211B3E9386EF6C36 /* Pods_HySocketDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 92D818DD033D184C331308EE /* Pods_HySocketDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8DA9294A5C0540411C6359DC /* Pods-HySocketDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HySocketDemo.debug.xcconfig"; path = "Target Support Files/Pods-HySocketDemo/Pods-HySocketDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		92D818DD033D184C331308EE /* Pods_HySocketDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HySocketDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58B1D5525FBBE050098DEB8 /* HySocketDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HySocketDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B58B1D5825FBBE050098DEB8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B58B1D5925FBBE050098DEB8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B58B1D5B25FBBE050098DEB8 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		B58B1D5C25FBBE050098DEB8 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		B58B1D5E25FBBE050098DEB8 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B58B1D5F25FBBE050098DEB8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B58B1D6225FBBE050098DEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B58B1D6425FBBE070098DEB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B58B1D6725FBBE070098DEB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B58B1D6925FBBE070098DEB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B58B1D6A25FBBE070098DEB8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B58B1D7325FBBE380098DEB8 /* HySocketMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HySocketMessage.m; sourceTree = "<group>"; };
+		B58B1D7425FBBE380098DEB8 /* HySocketServerProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySocketServerProtocol.h; sourceTree = "<group>"; };
+		B58B1D7525FBBE380098DEB8 /* HySocketHeartBeatProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySocketHeartBeatProtocol.h; sourceTree = "<group>"; };
+		B58B1D7625FBBE380098DEB8 /* HySocketReConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HySocketReConnect.m; sourceTree = "<group>"; };
+		B58B1D7725FBBE380098DEB8 /* HySocketHeartBeat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySocketHeartBeat.h; sourceTree = "<group>"; };
+		B58B1D7825FBBE380098DEB8 /* HySocketConnect.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HySocketConnect.m; sourceTree = "<group>"; };
+		B58B1D7A25FBBE380098DEB8 /* HySRWebSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HySRWebSocketClient.m; sourceTree = "<group>"; };
+		B58B1D7B25FBBE380098DEB8 /* HySRWebSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySRWebSocketServer.h; sourceTree = "<group>"; };
+		B58B1D7C25FBBE380098DEB8 /* HySRWebSocketFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySRWebSocketFactory.h; sourceTree = "<group>"; };
+		B58B1D7D25FBBE380098DEB8 /* HySRWebSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySRWebSocketClient.h; sourceTree = "<group>"; };
+		B58B1D7E25FBBE380098DEB8 /* HySRWebSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HySRWebSocketServer.m; sourceTree = "<group>"; };
+		B58B1D7F25FBBE380098DEB8 /* HySRWebSocketFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HySRWebSocketFactory.m; sourceTree = "<group>"; };
+		B58B1D8025FBBE380098DEB8 /* HyServerClientSocketObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyServerClientSocketObject.h; sourceTree = "<group>"; };
+		B58B1D8125FBBE380098DEB8 /* HySocketMessageProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySocketMessageProtocol.h; sourceTree = "<group>"; };
+		B58B1D8225FBBE380098DEB8 /* HySocketProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySocketProtocol.h; sourceTree = "<group>"; };
+		B58B1D8325FBBE380098DEB8 /* HySocketMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySocketMessage.h; sourceTree = "<group>"; };
+		B58B1D8425FBBE380098DEB8 /* HySocketConnectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySocketConnectProtocol.h; sourceTree = "<group>"; };
+		B58B1D8525FBBE380098DEB8 /* HySocketConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySocketConnect.h; sourceTree = "<group>"; };
+		B58B1D8625FBBE380098DEB8 /* HySocketHeartBeat.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HySocketHeartBeat.m; sourceTree = "<group>"; };
+		B58B1D8725FBBE380098DEB8 /* HySocketReConnect.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySocketReConnect.h; sourceTree = "<group>"; };
+		B58B1D8825FBBE380098DEB8 /* HySocketReConnectProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySocketReConnectProtocol.h; sourceTree = "<group>"; };
+		B58B1D8A25FBBE380098DEB8 /* HyCFSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyCFSocketClient.m; sourceTree = "<group>"; };
+		B58B1D8B25FBBE380098DEB8 /* HyCFSocketFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyCFSocketFactory.h; sourceTree = "<group>"; };
+		B58B1D8C25FBBE380098DEB8 /* HyCFSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyCFSocketServer.h; sourceTree = "<group>"; };
+		B58B1D8D25FBBE380098DEB8 /* HyCFSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyCFSocketClient.h; sourceTree = "<group>"; };
+		B58B1D8E25FBBE380098DEB8 /* HyCFSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyCFSocketServer.m; sourceTree = "<group>"; };
+		B58B1D8F25FBBE380098DEB8 /* HyCFSocketFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyCFSocketFactory.m; sourceTree = "<group>"; };
+		B58B1D9025FBBE380098DEB8 /* HyServerClientSocketObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyServerClientSocketObject.m; sourceTree = "<group>"; };
+		B58B1D9125FBBE380098DEB8 /* HySocketFactoryProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySocketFactoryProtocol.h; sourceTree = "<group>"; };
+		B58B1D9325FBBE380098DEB8 /* HyCocoaSyncSocketServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyCocoaSyncSocketServer.m; sourceTree = "<group>"; };
+		B58B1D9425FBBE380098DEB8 /* HyCocoaSyncSocketFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyCocoaSyncSocketFactory.m; sourceTree = "<group>"; };
+		B58B1D9525FBBE380098DEB8 /* HyCocoaSyncSocketClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyCocoaSyncSocketClient.h; sourceTree = "<group>"; };
+		B58B1D9625FBBE380098DEB8 /* HyCocoaSyncSocketServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyCocoaSyncSocketServer.h; sourceTree = "<group>"; };
+		B58B1D9725FBBE380098DEB8 /* HyCocoaSyncSocketClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HyCocoaSyncSocketClient.m; sourceTree = "<group>"; };
+		B58B1D9825FBBE380098DEB8 /* HyCocoaSyncSocketFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HyCocoaSyncSocketFactory.h; sourceTree = "<group>"; };
+		B58B1D9925FBBE380098DEB8 /* HySocketClientProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HySocketClientProtocol.h; sourceTree = "<group>"; };
+		B6AA544408CE993F15B47089 /* Pods-HySocketDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HySocketDemo.release.xcconfig"; path = "Target Support Files/Pods-HySocketDemo/Pods-HySocketDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B58B1D5225FBBE050098DEB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B5F65437211B3E9386EF6C36 /* Pods_HySocketDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B4D76A39B10D168EDFD2BCD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				92D818DD033D184C331308EE /* Pods_HySocketDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B58B1D4C25FBBE050098DEB8 = {
+			isa = PBXGroup;
+			children = (
+				B58B1D5725FBBE050098DEB8 /* HySocketDemo */,
+				B58B1D5625FBBE050098DEB8 /* Products */,
+				EB7C974CAF65BA732634A732 /* Pods */,
+				2B4D76A39B10D168EDFD2BCD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B58B1D5625FBBE050098DEB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B58B1D5525FBBE050098DEB8 /* HySocketDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B58B1D5725FBBE050098DEB8 /* HySocketDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B58B1D7225FBBE380098DEB8 /* Socket */,
+				B58B1D5825FBBE050098DEB8 /* AppDelegate.h */,
+				B58B1D5925FBBE050098DEB8 /* AppDelegate.m */,
+				B58B1D5B25FBBE050098DEB8 /* SceneDelegate.h */,
+				B58B1D5C25FBBE050098DEB8 /* SceneDelegate.m */,
+				B58B1D5E25FBBE050098DEB8 /* ViewController.h */,
+				B58B1D5F25FBBE050098DEB8 /* ViewController.m */,
+				B58B1D6125FBBE050098DEB8 /* Main.storyboard */,
+				B58B1D6425FBBE070098DEB8 /* Assets.xcassets */,
+				B58B1D6625FBBE070098DEB8 /* LaunchScreen.storyboard */,
+				B58B1D6925FBBE070098DEB8 /* Info.plist */,
+				B58B1D6A25FBBE070098DEB8 /* main.m */,
+			);
+			path = HySocketDemo;
+			sourceTree = "<group>";
+		};
+		B58B1D7225FBBE380098DEB8 /* Socket */ = {
+			isa = PBXGroup;
+			children = (
+				B58B1D8925FBBE380098DEB8 /* CFSocket */,
+				B58B1D7925FBBE380098DEB8 /* SRWebSocket */,
+				B58B1D9225FBBE380098DEB8 /* CocoaSyncSocket */,
+				B58B1D9125FBBE380098DEB8 /* HySocketFactoryProtocol.h */,
+				B58B1D8225FBBE380098DEB8 /* HySocketProtocol.h */,
+				B58B1D9925FBBE380098DEB8 /* HySocketClientProtocol.h */,
+				B58B1D7425FBBE380098DEB8 /* HySocketServerProtocol.h */,
+				B58B1D8025FBBE380098DEB8 /* HyServerClientSocketObject.h */,
+				B58B1D9025FBBE380098DEB8 /* HyServerClientSocketObject.m */,
+				B58B1D8525FBBE380098DEB8 /* HySocketConnect.h */,
+				B58B1D7825FBBE380098DEB8 /* HySocketConnect.m */,
+				B58B1D8425FBBE380098DEB8 /* HySocketConnectProtocol.h */,
+				B58B1D7725FBBE380098DEB8 /* HySocketHeartBeat.h */,
+				B58B1D8625FBBE380098DEB8 /* HySocketHeartBeat.m */,
+				B58B1D7525FBBE380098DEB8 /* HySocketHeartBeatProtocol.h */,
+				B58B1D8325FBBE380098DEB8 /* HySocketMessage.h */,
+				B58B1D7325FBBE380098DEB8 /* HySocketMessage.m */,
+				B58B1D8125FBBE380098DEB8 /* HySocketMessageProtocol.h */,
+				B58B1D8725FBBE380098DEB8 /* HySocketReConnect.h */,
+				B58B1D7625FBBE380098DEB8 /* HySocketReConnect.m */,
+				B58B1D8825FBBE380098DEB8 /* HySocketReConnectProtocol.h */,
+			);
+			path = Socket;
+			sourceTree = "<group>";
+		};
+		B58B1D7925FBBE380098DEB8 /* SRWebSocket */ = {
+			isa = PBXGroup;
+			children = (
+				B58B1D7C25FBBE380098DEB8 /* HySRWebSocketFactory.h */,
+				B58B1D7F25FBBE380098DEB8 /* HySRWebSocketFactory.m */,
+				B58B1D7D25FBBE380098DEB8 /* HySRWebSocketClient.h */,
+				B58B1D7A25FBBE380098DEB8 /* HySRWebSocketClient.m */,
+				B58B1D7B25FBBE380098DEB8 /* HySRWebSocketServer.h */,
+				B58B1D7E25FBBE380098DEB8 /* HySRWebSocketServer.m */,
+			);
+			path = SRWebSocket;
+			sourceTree = "<group>";
+		};
+		B58B1D8925FBBE380098DEB8 /* CFSocket */ = {
+			isa = PBXGroup;
+			children = (
+				B58B1D8B25FBBE380098DEB8 /* HyCFSocketFactory.h */,
+				B58B1D8F25FBBE380098DEB8 /* HyCFSocketFactory.m */,
+				B58B1D8D25FBBE380098DEB8 /* HyCFSocketClient.h */,
+				B58B1D8A25FBBE380098DEB8 /* HyCFSocketClient.m */,
+				B58B1D8C25FBBE380098DEB8 /* HyCFSocketServer.h */,
+				B58B1D8E25FBBE380098DEB8 /* HyCFSocketServer.m */,
+			);
+			path = CFSocket;
+			sourceTree = "<group>";
+		};
+		B58B1D9225FBBE380098DEB8 /* CocoaSyncSocket */ = {
+			isa = PBXGroup;
+			children = (
+				B58B1D9825FBBE380098DEB8 /* HyCocoaSyncSocketFactory.h */,
+				B58B1D9425FBBE380098DEB8 /* HyCocoaSyncSocketFactory.m */,
+				B58B1D9525FBBE380098DEB8 /* HyCocoaSyncSocketClient.h */,
+				B58B1D9725FBBE380098DEB8 /* HyCocoaSyncSocketClient.m */,
+				B58B1D9625FBBE380098DEB8 /* HyCocoaSyncSocketServer.h */,
+				B58B1D9325FBBE380098DEB8 /* HyCocoaSyncSocketServer.m */,
+			);
+			path = CocoaSyncSocket;
+			sourceTree = "<group>";
+		};
+		EB7C974CAF65BA732634A732 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8DA9294A5C0540411C6359DC /* Pods-HySocketDemo.debug.xcconfig */,
+				B6AA544408CE993F15B47089 /* Pods-HySocketDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B58B1D5425FBBE050098DEB8 /* HySocketDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B58B1D6E25FBBE070098DEB8 /* Build configuration list for PBXNativeTarget "HySocketDemo" */;
+			buildPhases = (
+				2849CCB57C9E7BF305359224 /* [CP] Check Pods Manifest.lock */,
+				B58B1D5125FBBE050098DEB8 /* Sources */,
+				B58B1D5225FBBE050098DEB8 /* Frameworks */,
+				B58B1D5325FBBE050098DEB8 /* Resources */,
+				684CE7A85F966D55A1D4DB9C /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HySocketDemo;
+			productName = HySocketDemo;
+			productReference = B58B1D5525FBBE050098DEB8 /* HySocketDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B58B1D4D25FBBE050098DEB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					B58B1D5425FBBE050098DEB8 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B58B1D5025FBBE050098DEB8 /* Build configuration list for PBXProject "HySocketDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B58B1D4C25FBBE050098DEB8;
+			productRefGroup = B58B1D5625FBBE050098DEB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B58B1D5425FBBE050098DEB8 /* HySocketDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B58B1D5325FBBE050098DEB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58B1D6825FBBE070098DEB8 /* LaunchScreen.storyboard in Resources */,
+				B58B1D6525FBBE070098DEB8 /* Assets.xcassets in Resources */,
+				B58B1D6325FBBE050098DEB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2849CCB57C9E7BF305359224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HySocketDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		684CE7A85F966D55A1D4DB9C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HySocketDemo/Pods-HySocketDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HySocketDemo/Pods-HySocketDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HySocketDemo/Pods-HySocketDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B58B1D5125FBBE050098DEB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B58B1D6025FBBE050098DEB8 /* ViewController.m in Sources */,
+				B58B1DA225FBBE380098DEB8 /* HyCFSocketServer.m in Sources */,
+				B58B1D9B25FBBE380098DEB8 /* HySocketReConnect.m in Sources */,
+				B58B1D5A25FBBE050098DEB8 /* AppDelegate.m in Sources */,
+				B58B1DA125FBBE380098DEB8 /* HyCFSocketClient.m in Sources */,
+				B58B1DA725FBBE380098DEB8 /* HyCocoaSyncSocketClient.m in Sources */,
+				B58B1D6B25FBBE070098DEB8 /* main.m in Sources */,
+				B58B1D9D25FBBE380098DEB8 /* HySRWebSocketClient.m in Sources */,
+				B58B1DA525FBBE380098DEB8 /* HyCocoaSyncSocketServer.m in Sources */,
+				B58B1DA425FBBE380098DEB8 /* HyServerClientSocketObject.m in Sources */,
+				B58B1DA325FBBE380098DEB8 /* HyCFSocketFactory.m in Sources */,
+				B58B1D9C25FBBE380098DEB8 /* HySocketConnect.m in Sources */,
+				B58B1DA625FBBE380098DEB8 /* HyCocoaSyncSocketFactory.m in Sources */,
+				B58B1D5D25FBBE050098DEB8 /* SceneDelegate.m in Sources */,
+				B58B1D9A25FBBE380098DEB8 /* HySocketMessage.m in Sources */,
+				B58B1D9F25FBBE380098DEB8 /* HySRWebSocketFactory.m in Sources */,
+				B58B1D9E25FBBE380098DEB8 /* HySRWebSocketServer.m in Sources */,
+				B58B1DA025FBBE380098DEB8 /* HySocketHeartBeat.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B58B1D6125FBBE050098DEB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58B1D6225FBBE050098DEB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B58B1D6625FBBE070098DEB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B58B1D6725FBBE070098DEB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B58B1D6C25FBBE070098DEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B58B1D6D25FBBE070098DEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B58B1D6F25FBBE070098DEB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8DA9294A5C0540411C6359DC /* Pods-HySocketDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 365U9LC75H;
+				INFOPLIST_FILE = HySocketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hy.HySocketDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B58B1D7025FBBE070098DEB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B6AA544408CE993F15B47089 /* Pods-HySocketDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 365U9LC75H;
+				INFOPLIST_FILE = HySocketDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Hy.HySocketDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B58B1D5025FBBE050098DEB8 /* Build configuration list for PBXProject "HySocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58B1D6C25FBBE070098DEB8 /* Debug */,
+				B58B1D6D25FBBE070098DEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B58B1D6E25FBBE070098DEB8 /* Build configuration list for PBXNativeTarget "HySocketDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B58B1D6F25FBBE070098DEB8 /* Debug */,
+				B58B1D7025FBBE070098DEB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B58B1D4D25FBBE050098DEB8 /* Project object */;
+}

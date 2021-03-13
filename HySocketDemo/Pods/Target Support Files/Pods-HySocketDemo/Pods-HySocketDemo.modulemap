@@ -1,0 +1,6 @@
+framework module Pods_HySocketDemo {
+  umbrella header "Pods-HySocketDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}

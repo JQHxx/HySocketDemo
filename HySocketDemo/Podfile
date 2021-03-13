@@ -1,0 +1,26 @@
+
+source 'https://github.com/hydreamit/Specs'
+source 'https://cdn.cocoapods.org/'
+
+platform :ios, "9.0"
+inhibit_all_warnings!
+use_frameworks!
+
+
+target 'HySocketDemo' do
+  # Comment the next line if you don't want to use dynamic frameworks
+
+    pod 'CocoaAsyncSocket'
+    pod 'SocketRocket'
+    pod 'ReactiveObjC'
+    pod 'Masonry'
+    pod 'HyCategoriess'
+    pod 'LFPhoneInfo'
+    pod 'HyBaseComponents/Network'
+    pod 'HyBaseComponents/ModelParser'
+
+
+    
+  # Pods for HySocketDemo
+
+end
